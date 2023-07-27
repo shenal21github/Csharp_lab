@@ -1,37 +1,38 @@
 ﻿using System;
 
-namespace DigitSumCalculator
+namespace KilometerToMeterConverter
 {
+    class ConvertValues
+    {
+        public double KilometerToMeter(double kilometers)
+        {
+            double meters = kilometers * 1000;
+            return meters;
+        }
+    }
+
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to the Digit Sum Calculator!");
+            Console.WriteLine("Welcome to Kilometer to Meter Converter!");
 
-            // Read the number from the user
-            Console.Write("Enter a number: ");
+            // Create an object of the ConvertValues class
+            ConvertValues converter = new ConvertValues();
+
+            // Read the kilometer value from the user
+            Console.Write("Enter the value in kilometers (km): ");
             string input = Console.ReadLine();
 
-            // Parse the input to get the number as an integer
-            if (int.TryParse(input, out int number))
+            if (double.TryParse(input, out double kilometers))
             {
-                // Calculate the sum of the digits using a for loop
-                int sumOfDigits = 0;
-                int tempNumber = Math.Abs(number); // Take the absolute value to handle negative numbers
-
-                while (tempNumber > 0)
-                {
-                    int digit = tempNumber % 10;
-                    sumOfDigits += digit;
-                    tempNumber /= 10;
-                }
-
-                // Print the result
-                Console.WriteLine($"The sum of the digits of {number} is: {sumOfDigits}");
+                // Call the KilometerToMeter method with the user-given kilometers
+                double meters = converter.KilometerToMeter(kilometers);
+                Console.WriteLine($"The value in meters (m) is: {meters} m");
             }
             else
             {
-                Console.WriteLine("Invalid input. Please enter a valid integer number.");
+                Console.WriteLine("Invalid input. Please enter a valid number for kilometers.");
             }
 
             // Keep the console window open until the user presses a key

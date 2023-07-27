@@ -1,46 +1,42 @@
 ﻿using System;
 
-namespace VowelCounter
+namespace KilometerToMeterConverter
 {
+    class ConvertValues
+    {
+        public void KilometerToMeter(double kilometers)
+        {
+            double meters = kilometers * 1000;
+            Console.WriteLine($"The value in meters (m) is: {meters} m");
+        }
+    }
+
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to the Vowel Counter!");
+            Console.WriteLine("Welcome to Kilometer to Meter Converter!");
 
-            // Read the input string from the user
-            Console.Write("Enter a string: ");
+            // Create an object of the ConvertValues class
+            ConvertValues converter = new ConvertValues();
+
+            // Read the kilometer value from the user
+            Console.Write("Enter the value in kilometers (km): ");
             string input = Console.ReadLine();
 
-            // Convert the input string to lowercase to handle both uppercase and lowercase vowels
-            string lowerCaseInput = input.ToLower();
-
-            // Initialize a counter to keep track of the number of vowels
-            int vowelCount = 0;
-
-            // Loop through each character in the string
-            foreach (char c in lowerCaseInput)
+            if (double.TryParse(input, out double kilometers))
             {
-                // Check if the character is a vowel
-                if (IsVowel(c))
-                {
-                    vowelCount++;
-                }
+                // Call the KilometerToMeter method with the user-given kilometers
+                converter.KilometerToMeter(kilometers);
             }
-
-            // Print the result
-            Console.WriteLine($"The number of vowels in the string is: {vowelCount}");
+            else
+            {
+                Console.WriteLine("Invalid input. Please enter a valid number for kilometers.");
+            }
 
             // Keep the console window open until the user presses a key
             Console.WriteLine("\nPress any key to exit.");
             Console.ReadKey();
         }
-
-        // Helper method to check if a character is a vowel
-        static bool IsVowel(char c)
-        {
-            return c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u';
-        }
     }
 }
-

@@ -1,34 +1,37 @@
 ﻿using System;
 
-namespace EvenOddChecker
+namespace KilometerToMeterConverter
 {
+    class ConvertValues
+    {
+        public void KilometerToMeter()
+        {
+            Console.Write("Enter the value in kilometers (km): ");
+            string input = Console.ReadLine();
+
+            if (double.TryParse(input, out double kilometers))
+            {
+                double meters = kilometers * 1000;
+                Console.WriteLine($"The value in meters (m) is: {meters} m");
+            }
+            else
+            {
+                Console.WriteLine("Invalid input. Please enter a valid number for kilometers.");
+            }
+        }
+    }
+
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to the Even-Odd Checker!");
+            Console.WriteLine("Welcome to Kilometer to Meter Converter!");
 
-            // Read the number from the user
-            Console.Write("Enter an integer number: ");
-            string input = Console.ReadLine();
+            // Create an object of the ConvertValues class
+            ConvertValues converter = new ConvertValues();
 
-            // Parse the input to get the number as an integer
-            if (int.TryParse(input, out int number))
-            {
-                // Check if the number is even or odd
-                if (number % 2 == 0)
-                {
-                    Console.WriteLine("Even");
-                }
-                else
-                {
-                    Console.WriteLine("Odd");
-                }
-            }
-            else
-            {
-                Console.WriteLine("Invalid input. Please enter a valid integer number.");
-            }
+            // Call the KilometerToMeter method to perform the conversion
+            converter.KilometerToMeter();
 
             // Keep the console window open until the user presses a key
             Console.WriteLine("\nPress any key to exit.");

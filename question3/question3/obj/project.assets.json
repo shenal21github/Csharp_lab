@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SHENAL\\OneDrive\\Desktop\\chalitha\\C#lab3\\question3\\question3\\question3.csproj",
+      "projectUniqueName": "C:\\Users\\SHENAL\\OneDrive\\Desktop\\chalitha\\C#lab4\\question3\\question3\\question3.csproj",
       "projectName": "question3",
-      "projectPath": "C:\\Users\\SHENAL\\OneDrive\\Desktop\\chalitha\\C#lab3\\question3\\question3\\question3.csproj",
+      "projectPath": "C:\\Users\\SHENAL\\OneDrive\\Desktop\\chalitha\\C#lab4\\question3\\question3\\question3.csproj",
       "packagesPath": "C:\\Users\\SHENAL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SHENAL\\OneDrive\\Desktop\\chalitha\\C#lab3\\question3\\question3\\obj\\",
+      "outputPath": "C:\\Users\\SHENAL\\OneDrive\\Desktop\\chalitha\\C#lab4\\question3\\question3\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
