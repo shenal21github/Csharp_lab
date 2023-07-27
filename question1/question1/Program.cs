@@ -1,33 +1,33 @@
 ﻿using System;
 
-namespace SumCalculator
+namespace EvenOddChecker
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to the Sum Calculator!");
+            Console.WriteLine("Welcome to the Even-Odd Checker!");
 
-            // Read the first input number
-            Console.Write("Enter the first number: ");
-            string input1 = Console.ReadLine();
+            // Read the number from the user
+            Console.Write("Enter an integer number: ");
+            string input = Console.ReadLine();
 
-            // Read the second input number
-            Console.Write("Enter the second number: ");
-            string input2 = Console.ReadLine();
-
-            // Parse the inputs to get the numbers as doubles
-            if (double.TryParse(input1, out double num1) && double.TryParse(input2, out double num2))
+            // Parse the input to get the number as an integer
+            if (int.TryParse(input, out int number))
             {
-                // Calculate the sum of the two numbers
-                double sum = num1 + num2;
-
-                // Print the result
-                Console.WriteLine($"The sum of {num1} and {num2} is: {sum}");
+                // Check if the number is even or odd
+                if (number % 2 == 0)
+                {
+                    Console.WriteLine("Even");
+                }
+                else
+                {
+                    Console.WriteLine("Odd");
+                }
             }
             else
             {
-                Console.WriteLine("Invalid input. Please enter valid numbers.");
+                Console.WriteLine("Invalid input. Please enter a valid integer number.");
             }
 
             // Keep the console window open until the user presses a key
@@ -36,3 +36,4 @@ namespace SumCalculator
         }
     }
 }
+

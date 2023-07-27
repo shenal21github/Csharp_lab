@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SHENAL\\OneDrive\\Desktop\\chalitha\\C#lab2\\question2\\question2\\question2.csproj": {}
+    "C:\\Users\\SHENAL\\OneDrive\\Desktop\\chalitha\\C#lab3\\question2\\question2\\question2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SHENAL\\OneDrive\\Desktop\\chalitha\\C#lab2\\question2\\question2\\question2.csproj": {
+    "C:\\Users\\SHENAL\\OneDrive\\Desktop\\chalitha\\C#lab3\\question2\\question2\\question2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SHENAL\\OneDrive\\Desktop\\chalitha\\C#lab2\\question2\\question2\\question2.csproj",
+        "projectUniqueName": "C:\\Users\\SHENAL\\OneDrive\\Desktop\\chalitha\\C#lab3\\question2\\question2\\question2.csproj",
         "projectName": "question2",
-        "projectPath": "C:\\Users\\SHENAL\\OneDrive\\Desktop\\chalitha\\C#lab2\\question2\\question2\\question2.csproj",
+        "projectPath": "C:\\Users\\SHENAL\\OneDrive\\Desktop\\chalitha\\C#lab3\\question2\\question2\\question2.csproj",
         "packagesPath": "C:\\Users\\SHENAL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SHENAL\\OneDrive\\Desktop\\chalitha\\C#lab2\\question2\\question2\\obj\\",
+        "outputPath": "C:\\Users\\SHENAL\\OneDrive\\Desktop\\chalitha\\C#lab3\\question2\\question2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

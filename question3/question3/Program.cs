@@ -1,33 +1,37 @@
 ﻿using System;
 
-namespace CircleCalculator
+namespace DigitSumCalculator
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to the Circle Calculator!");
+            Console.WriteLine("Welcome to the Digit Sum Calculator!");
 
-            // Read the radius from the user
-            Console.Write("Enter the radius of the circle: ");
-            string radiusInput = Console.ReadLine();
+            // Read the number from the user
+            Console.Write("Enter a number: ");
+            string input = Console.ReadLine();
 
-            // Parse the input to get the radius as a double
-            if (double.TryParse(radiusInput, out double radius))
+            // Parse the input to get the number as an integer
+            if (int.TryParse(input, out int number))
             {
-                // Calculate the area of the circle
-                double area = Math.PI * Math.Pow(radius, 2);
+                // Calculate the sum of the digits using a for loop
+                int sumOfDigits = 0;
+                int tempNumber = Math.Abs(number); // Take the absolute value to handle negative numbers
 
-                // Calculate the circumference of the circle
-                double circumference = 2 * Math.PI * radius;
+                while (tempNumber > 0)
+                {
+                    int digit = tempNumber % 10;
+                    sumOfDigits += digit;
+                    tempNumber /= 10;
+                }
 
-                // Print the results
-                Console.WriteLine($"Area of the circle: {area:F2}");
-                Console.WriteLine($"Circumference of the circle: {circumference:F2}");
+                // Print the result
+                Console.WriteLine($"The sum of the digits of {number} is: {sumOfDigits}");
             }
             else
             {
-                Console.WriteLine("Invalid input. Please enter a valid number for the radius.");
+                Console.WriteLine("Invalid input. Please enter a valid integer number.");
             }
 
             // Keep the console window open until the user presses a key
