@@ -1,0 +1,15 @@
+C:\Users\SHENAL\OneDrive\Desktop\chalitha\labsession\labsession2\labsession2\bin\Debug\net6.0\labsession2.exe
+C:\Users\SHENAL\OneDrive\Desktop\chalitha\labsession\labsession2\labsession2\bin\Debug\net6.0\labsession2.deps.json
+C:\Users\SHENAL\OneDrive\Desktop\chalitha\labsession\labsession2\labsession2\bin\Debug\net6.0\labsession2.runtimeconfig.json
+C:\Users\SHENAL\OneDrive\Desktop\chalitha\labsession\labsession2\labsession2\bin\Debug\net6.0\labsession2.dll
+C:\Users\SHENAL\OneDrive\Desktop\chalitha\labsession\labsession2\labsession2\bin\Debug\net6.0\labsession2.pdb
+C:\Users\SHENAL\OneDrive\Desktop\chalitha\labsession\labsession2\labsession2\obj\Debug\net6.0\labsession2.csproj.AssemblyReference.cache
+C:\Users\SHENAL\OneDrive\Desktop\chalitha\labsession\labsession2\labsession2\obj\Debug\net6.0\labsession2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SHENAL\OneDrive\Desktop\chalitha\labsession\labsession2\labsession2\obj\Debug\net6.0\labsession2.AssemblyInfoInputs.cache
+C:\Users\SHENAL\OneDrive\Desktop\chalitha\labsession\labsession2\labsession2\obj\Debug\net6.0\labsession2.AssemblyInfo.cs
+C:\Users\SHENAL\OneDrive\Desktop\chalitha\labsession\labsession2\labsession2\obj\Debug\net6.0\labsession2.csproj.CoreCompileInputs.cache
+C:\Users\SHENAL\OneDrive\Desktop\chalitha\labsession\labsession2\labsession2\obj\Debug\net6.0\labsession2.dll
+C:\Users\SHENAL\OneDrive\Desktop\chalitha\labsession\labsession2\labsession2\obj\Debug\net6.0\refint\labsession2.dll
+C:\Users\SHENAL\OneDrive\Desktop\chalitha\labsession\labsession2\labsession2\obj\Debug\net6.0\labsession2.pdb
+C:\Users\SHENAL\OneDrive\Desktop\chalitha\labsession\labsession2\labsession2\obj\Debug\net6.0\labsession2.genruntimeconfig.cache
+C:\Users\SHENAL\OneDrive\Desktop\chalitha\labsession\labsession2\labsession2\obj\Debug\net6.0\ref\labsession2.dll
